@@ -24,7 +24,7 @@ function atualizarInterfaceUsuarios(usuariosNoDocumento){
   usuariosNoDocumento.forEach((usuario) => {
     listaUsuariosConectados.innerHTML += `
       <li class="list-group-item">${usuario}</li>
-    `
+    `;
   })
 }
 
